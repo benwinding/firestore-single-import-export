@@ -5,7 +5,7 @@
   "repository": "git@github.com:benwinding/firestore-single-import-export.git",
   "author": "Ben Winding <hello@benwinding.com>",
   "license": "MIT",
-  "private": true,
+  "bin": "firestore-single-import-export",
   "dependencies": {
     "commander": "^6.1.0",
     "firestore-export-import": "^0.7.0"
