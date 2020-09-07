@@ -1,11 +1,13 @@
 {
   "name": "firestore-single-import-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:benwinding/firestore-single-import-export.git",
   "author": "Ben Winding <hello@benwinding.com>",
   "license": "MIT",
-  "bin": "firestore-single-import-export",
+  "bin": {
+    "firestore-single-import-export": "./index.js"
+  },
   "dependencies": {
     "commander": "^6.1.0",
     "firestore-export-import": "^0.7.0"

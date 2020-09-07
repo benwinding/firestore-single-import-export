@@ -2,6 +2,10 @@
 
 A simple CLI tool to export/import a single collection from firestore.
 
+## Install
+
+`npm i -g firestore-single-import-export`
+
 ## Usage
 
 ```
